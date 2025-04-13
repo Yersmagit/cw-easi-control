@@ -1,9 +1,0 @@
-{
-    "widgets": [
-        "widget-weather.ui",
-        "widget-time.ui",
-        "widget-countdown.ui",
-        "widget-current-activity.ui",
-        "widget-next-activity.ui"
-    ]
-}
