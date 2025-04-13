@@ -1,44 +1,45 @@
-> [!NOTE]
-> 欢迎使用本插件模板，该模板可以帮助你快速创建一个新的 Class Widgets 插件项目。
-> 此Readme文件是一个示例，可按需进行修改。
-> 
-> Tip: 若希望下列的徽标正常显示的话可以用替换将"repo-owner/repo-name"替换为你的仓库名。
-> 
-> 可在[此处](https://www.yuque.com/rinlit/cw-docs-dev)查看教程。
+> [!IMPORTANT]
+> **此项目尚处于开发阶段，目前只能实现一些简单的、特定的功能。**
+> 具体请参见下文。
 
 <div align="center">
 <img src="icon.png" alt="插件图标" width="18%">
-<h1>Class Widgets 插件模板</h1>
+<h1>EasiControl</h1>
 
 
-[![星标](https://img.shields.io/github/stars/repo-owner/repo-name?style=for-the-badge&color=orange&label=星标)](https://github.com/repo-owner/repo-name)
-[![开源许可](https://img.shields.io/badge/license-MIT-darkgreen.svg?label=开源许可证&style=for-the-badge)](https://github.com/repo-owner/repo-name)
-[![下载量](https://img.shields.io/github/downloads/repo-owner/repo-name/total.svg?label=下载量&color=green&style=for-the-badge)](https://github.com/repo-owner/repo-name)
+[![星标](https://img.shields.io/github/stars/Yersmagit/cw-easi-control?style=for-the-badge&color=orange&label=星标)](https://github.com/Yersmagit/cw-easi-control)
+[![开源许可](https://img.shields.io/badge/license-MIT-darkgreen.svg?label=开源许可证&style=for-the-badge)](https://github.com/Yersmagit/cw-easi-control)
+[![下载量](https://img.shields.io/github/downloads/Yersmagit/cw-easi-control/total.svg?label=下载量&color=green&style=for-the-badge)](https://github.com/Yersmagit/cw-easi-control)
 
 </div>
 
 ## 介绍
 
-本项目是一个 Class Widgets 插件模板，可以帮助你快速创建一个新的 Class Widgets 插件项目。
+EasiControl 是一个 ClassWidgets 插件，可以方便地实现 ClassWidgets 的自动化控制。
+
 
 ### 截图
-![截图1](img/img.png)
+![截图1](none)
 
 ### 特性
 
-- 第一个特性
-- 第二个特性
-- 第三个特性
+#### 已实现：
+- 配合插件 [LX-Music-Lyrics-Plugin](https://github.com/laoshuikaixue/cw-LX-music-lyrics-plugin) 自动改变您的 ClassWidgets 小组件类型
+
+#### 待实现：
+- 自定义自动化更改的小组件的类型
+- 自定义自动化更改小组件的触发条件
+- 
 
 ## 许可证
 本插件采用了 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
-Copyright © 2025 Your Name.
+Copyright © 2025 Yersmagit.
 
 ## 鸣谢
 
 ### 贡献者
 Thanks goes to these wonderful people:
-[![Contributors](http://contrib.nn.ci/api?repo=repo-owner/repo-name)](https://github.com/repo-owner/repo-name/graphs/contributors)
+[![Contributors](http://contrib.nn.ci/api?repo=Yersmagit/cw-easi-control)](https://github.com/Yersmagit/cw-easi-control/graphs/contributors)
 
 ### 使用的资源
 
