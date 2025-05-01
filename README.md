@@ -25,23 +25,31 @@ EasiControl 是一个 ClassWidgets 插件，可以方便地实现 ClassWidgets �
 
 #### 已实现：
 - 配合插件 [LX-Music-Lyrics-Plugin](https://github.com/laoshuikaixue/cw-LX-music-lyrics-plugin) 自动改变您的 ClassWidgets 小组件类型
+- 特定活动时显示特定的小组件
+- ...
 
 #### 待实现：
-- 自定义自动化更改的小组件的类型
-- 自定义自动化更改小组件的触发条件
-- 
+- 高度自定义执行特定事件的条件
+- 高度自定义特定条件下执行的事件
+- ...
 
-## 许可证
+## 使用
+
+> [!WARNING]
+> **本插件运行具有较高逻辑性，请不要随意更改目录文件内容！**
+
+## 其它
+### 许可证
 本插件采用了 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
 Copyright © 2025 Yersmagit.
 
-## 鸣谢
+### 鸣谢
 
-### 贡献者
+#### 贡献者
 Thanks goes to these wonderful people:
 [![Contributors](http://contrib.nn.ci/api?repo=Yersmagit/cw-easi-control)](https://github.com/Yersmagit/cw-easi-control/graphs/contributors)
 
-### 使用的资源
+#### 使用的资源
 
 - [资源1](https://example.com)
 - [资源2](https://example.com)
