@@ -1,7 +1,7 @@
 {
     "name": "EasiControl",
     "description": "自动化控制小组件",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "plugin_ver": 1,
     "author": "Yersmagit",
     "settings": false,
@@ -9,5 +9,5 @@
     "url": "https://github.com/Yersmagit/cw-easi-control",
     "branch": "main",
 
-    "update_date": "2025/04/06"
+    "update_date": "2025/05/01"
 }
