@@ -38,6 +38,18 @@ EasiControl 是一个 ClassWidgets 插件，可以方便地实现 ClassWidgets �
 > [!WARNING]
 > **本插件运行具有较高逻辑性，请不要随意更改目录文件内容！**
 
+你可以在下载插件后，打开`main.py`，在文件开头找到并修改如下常量以实现自定义。
+```python
+# --常量定义--
+
+# 用于显示特定小组件的课程名称，如"课间", "暂无课程", "自习"
+LESSON_TRIGGERS = ["Subject_1", "Subiect_2", "Subiect_3"]  # 可扩展的触发文本列表
+# 在上述特定课程切换的小组件名称。当课程为 LESSON_TRIGGERS 中的课程时，显示目标组件；否则，显示原始组件
+WIDGET_TARGET_PAIR = ("example-1.ui", "example-2.ui")  # (原始组件，目标组件)
+```
+
+将来，我们会给此内容添加图形交互界面。
+
 ## 其它
 ### 许可证
 本插件采用了 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
