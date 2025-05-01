@@ -7,9 +7,14 @@ import psutil
 from datetime import datetime
 from .ClassWidgets.base import PluginBase
 
-# 在类开头添加常量定义
-LESSON_TRIGGERS = ["课间", "暂无课程", "午休", "自习", "晚自习（语文）", "晚自习（数学）", "晚自习（外语）", "晚自习（物理）", "晚自习（化学）", "晚自习（地理）"]  # 可扩展的触发文本列表
-WIDGET_TARGET_PAIR = ("widget-time.ui", "widget-daily-monitor.ui")  # (原始组件，目标组件)
+
+# --常量定义--
+
+# 用于显示特定小组件的课程名称，如"课间", "暂无课程", "自习"
+LESSON_TRIGGERS = ["Subject_1", "Subiect_2", "Subiect_3"]  # 可扩展的触发文本列表
+# 在上述特定课程切换的小组件名称。当课程为 LESSON_TRIGGERS 中的课程时，显示目标组件；否则，显示原始组件
+WIDGET_TARGET_PAIR = ("example-1.ui", "example-2.ui")  # (原始组件，目标组件)
+
 
 class Plugin(PluginBase):
     def __init__(self, cw_contexts, method):
